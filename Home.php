@@ -50,33 +50,54 @@
 
 <!-- ABOUT-US section-->
 <section id="About" class="jumbotron">
+
     <div>
-        <h5 class="h-25">Our Services</h5>
+        <h1 class="col-sm-6"><strong>Our Services</strong></h1>
     </div>
-<div>
-    <p>
-        Experts at migrating out of/integrating with Oracle service cloud and Salesforce. We have experience in various platforms / coding languages such as Java, PHP, Javascript, Python, Delphi and SQL etc. We also engage in embedded software development.
-        <br><br>
-        Devprox's team is experienced in creating tailored solutions to perfectly fit your business needs. Devprox is a team of enthusiastic and forward-thinking developers, system architects, enterprise architects, engineers, data scientists, business analysts, automated QA developers and e-commerce experts. Our skill set is diverse, however we all have one thing in common; our talent and persistent effort to contribute to the success of our clients.
 
-    </p>
-</div>
+    <div class="float-md-right col-md-5 ">
+        <div id="Carousel" class="carousel" >
+            <ol class="carousel-indicators">
+                <li data-target="#Carousel" data-toggle="0" class="active"></li>
+                <li data-target="#Carousel" data-toggle="1"></li>
+            </ol>
 
-    <div id="Carousel" class="carousel" >
-        <ol class="carousel-indicators">
-            <li data-target="#Carousel" data-toggle="0" class="active"></li>
-            <li data-target="#Carousel" data-toggle="1"></li>
-        </ol>
-        
-        <div class="carousel-inner" role="listbox">
-            <div class="item-active">
-                <img src="assets/images/softwareD.jpg" alt="" d>
-            </div>
-            <div class="carousel-item">
-                <img src="assets/images/javas.png" alt="">
+            <div class="carousel-inner" role="listbox">
+
+                <div class="item-active">
+                    <img src="assets/images/WebDesign.jpg" alt="">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="assets/images/softwareD.jpg" alt="">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="assets/images/javas.png" alt="">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="assets/images/php.png" alt="">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="assets/images/python.png" alt="">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="assets/images/Delphi.png" alt="">
+                </div>
+
             </div>
         </div>
+    </div>
 
+    <div class="text-lg-left col-sm-6">
+        <p>
+            Experts at migrating out of/integrating with Oracle service cloud and Salesforce. We have experience in various platforms / coding languages such as Java, PHP, Javascript, Python, Delphi and SQL etc. We also engage in embedded software development.
+            <br><br>
+            Devprox's team is experienced in creating tailored solutions to perfectly fit your business needs. Devprox is a team of enthusiastic and forward-thinking developers, system architects, enterprise architects, engineers, data scientists, business analysts, automated QA developers and e-commerce experts. Our skill set is diverse, however we all have one thing in common; our talent and persistent effort to contribute to the success of our clients.
+        </p>
     </div>
 
 </section>
@@ -90,31 +111,29 @@
         <h1 class="">Our Services</h1>
        </div>
 
-    <div class="col-md-5 text-lg-left">
-       <div>
-           <h6 class="text-uppercase"><i class="fa-fa-square-o"></i><strong> Easy to Customise</strong></h6>
-        <p>The fox jumps over the lazy dog</p>
-       </div>
+    <div class="text-lg-right col-md-9">
+        <div>
+            <h6 class="text-uppercase"><i class="fa-fa-square-o"></i><strong> Easy to Customise</strong></h6>
+            <p>The fox jumps over the lazy dog</p>
+        </div>
 
-       <div>
-        <h6 class="text-uppercase"><i class="fa-fa-square-o"></i><strong> Full of Features</strong></h6>
-        <p>The fox jumps over the lazy dog</p>
-       </div>
+        <div>
+            <h6 class="text-uppercase"><i class="fa-fa-square-o"></i><strong> Full of Features</strong></h6>
+            <p>The fox jumps over the lazy dog</p>
+        </div>
 
-       <div>
-        <h6 class="text-uppercase"><i class="fa-fa-square-o"></i><strong> 24/7 Support.</strong></h6>
-        <p></p>
-       </div>
+        <div>
+            <h6 class="text-uppercase"><i class="fa-fa-square-o"></i><strong> 24/7 Support.</strong></h6>
+            <p></p>
+        </div>
 
-       <div class="">
-        <h6 class="text-uppercase"><i class="fa-fa-square-o"></i><strong> All in psd files.</strong></h6>
-        <p>The fox jumps over the lazy dog</p>
-       </div>
+        <div>
+            <h6 class="text-uppercase"><i class="fa-fa-square-o"></i><strong> All in psd files.</strong></h6>
+            <p>The fox jumps over the lazy dog</p>
+        </div>
     </div>
 
-
-
-    <div class="col-md-5 text-lg-left form-text">
+    <div class="text-lg-left col-md-5 align-top">
         <div>
             <h6 class="text-uppercase"><i class="fa-fa-square-o"></i><strong> Easy to Customise</strong></h6>
             <p>The fox jumps over the lazy dog</p>
@@ -145,41 +164,41 @@
                     <h1 class="text-uppercase"><strong>Contact Us</strong></h1>
                     <br/>
 
+                <form>
+                    <div class="text-xl-center">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <input id="username" name="username" type="text" placeholder="Name" required="" >
+                            </div>
+                        </div>
 
-             <form>
-                <div>
-                    <div class="col-sm-12">
-                        <div class="form-group">
-                             <input id="username" name="username" type="text" placeholder="Name" required="" >
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <input id="contact" name="contact" type="number" placeholder="Phone" required="" >
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <input id="email" name="email" type="email" placeholder="Email" required="" >
+                            </div>
+                        </div>
+
+                        <div class="col-xl-12">
+                            <div class="form-group">
+                                <input id="message" name="message" type="text" placeholder="Message" required="" >
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <input id="submit" type="submit" placeholder="SEND A MESSAGE">
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-sm-12">
-                        <div class="form-group">
-                             <input id="contact" name="contact" type="number" placeholder="Phone" required="" >
-                        </div>
-                    </div>
+                </form>
 
-                    <div class="col-sm-12">
-                        <div class="form-group">
-                             <input id="email" name="email" type="email" placeholder="Email" required="" >
-                        </div>
-                    </div>
-
-                    <div class="col-xl-12">
-                        <div class="form-group">
-                             <input id="message" name="message" type="text" placeholder="Message" required="" >
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12">
-                        <div class="form-group">
-                             <input id="submit" type="submit" placeholder="SEND A MESSAGE">
-                        </div>
-                    </div>
-
-                </div>
-             </form>
             </div>
        </div>
      </div>
@@ -189,18 +208,42 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div>
-                    <strong>Location</strong>
-                    <p class="t">10 Church street
-                       Unit 19
-                       San Domenico
-                       7550</p>
+                <div class="text-lg-left col-md-3">
+                    <div>
+                        <i class="fa-fa-location-arrow"><strong> Location</strong></i>
+                        <p>
+                            10 Church street
+                            Unit 19
+                            San Domenico
+                            Durbanville
+                            Cape Town
+                            7550</p>
+                    </div>
+
+                    <br><br>
+
+                    <div>
+                        <i class="fa-fa-phone"><strong> Phone</strong></i>
+                        <p>
+                            071 768 8987
+                        </p>
+                    </div>
+
+                    <br><br>
+
+                    <div>
+                        <i class="fa-fa-evelope"><strong> Email Address</strong></i>
+                        <p>
+                            reception@devprox.com
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-       <div>
-        <p class="text-xl-center">Devprox(pty)LTD 2017|www.Devprox.com</p>
-       </div>
+
+        <div class="card-footer">
+            <p class="text-xl-center">Devprox(pty)LTD 2017@ www.Devprox.com</p>
+        </div>
     </footer>
 </section>
 
