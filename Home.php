@@ -23,23 +23,23 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-              <img src="assets/images/devproxlogo.png" class="p-sm-0">
+              <img class="" src="assets/images/devproxlogo.png">
 
                <ul>
-                <li><a href="#Home"><i class="fa-fa-home"></i> HOME</a></li>
-                <li><a href="#About"><i class="fa-fa-team"></i> WHAT WE DO</a></li>
+                <li><a data-toggle="collapse" href="#Home"><i class="fa-fa-home"></i> HOME</a></li>
+                <li><a href="#About"  data-toggle="collapse"><i class="fa-fa-team"></i> WHAT WE DO</a></li>
                 <li><a href="#Contact"><i class="fa-fa-phone"></i> CONTACT-US</a></li>
                </ul>
             </div>
     </div>
     </nav>
 </header>
-    <div class="">
+    <div class="jumbotron bg-faded">
         <div class="text-center">
 
             <h6>We navigate the dangerous waters so you don't have to</h6>
 
-        <video id="" preload="" autoplay="true" loop="loop" muted="muted" >
+        <video id="" preload="" autoplay="true" loop="loop" muted="muted" class="">
             <source src="assets/video/shark.mp4" type="video/mp4">
             <source src="assets/video/shark.ogg" type="video/ogg">
             <source src="assets/video/shark.webm" type="video/webm">
@@ -53,6 +53,7 @@
 
     <div>
         <h1 class="col-sm-6"><strong>Our Services</strong></h1>
+        <br/>
     </div>
 
     <div class="float-md-right col-md-5 ">
@@ -104,39 +105,20 @@
 
 
 <!-- Our Services section -->
-<section class="jumbotron-fluid">
+<section class="jumbotron">
 
 
        <div>
-        <h1 class="">Our Services</h1>
+           <h1 class="col-sm-6"><strong>Our Services</strong></h1>
+           <br/>
        </div>
 
-    <div class="text-lg-right col-md-9">
+    <div class="row col-sm-6">
+
+     <div class=" col-sm-6">
         <div>
             <h6 class="text-uppercase"><i class="fa-fa-square-o"></i><strong> Easy to Customise</strong></h6>
-            <p>The fox jumps over the lazy dog</p>
-        </div>
-
-        <div>
-            <h6 class="text-uppercase"><i class="fa-fa-square-o"></i><strong> Full of Features</strong></h6>
-            <p>The fox jumps over the lazy dog</p>
-        </div>
-
-        <div>
-            <h6 class="text-uppercase"><i class="fa-fa-square-o"></i><strong> 24/7 Support.</strong></h6>
-            <p></p>
-        </div>
-
-        <div>
-            <h6 class="text-uppercase"><i class="fa-fa-square-o"></i><strong> All in psd files.</strong></h6>
-            <p>The fox jumps over the lazy dog</p>
-        </div>
-    </div>
-
-    <div class="text-lg-left col-md-5 align-top">
-        <div>
-            <h6 class="text-uppercase"><i class="fa-fa-square-o"></i><strong> Easy to Customise</strong></h6>
-            <p>The fox jumps over the lazy dog</p>
+            <p> over the lazy dog</p>
         </div>
 
         <div>
@@ -153,6 +135,30 @@
             <h6 class="text-uppercase"><i class="fa-fa-square-o"></i><strong> All in psd files.</strong></h6>
             <p>The fox jumps over the lazy dog</p>
         </div>
+     </div>
+
+        <div class="col-sm-6">
+            <div>
+                <h6 class="text-uppercase"><i class="fa-fa-square-o"></i><strong> Easy to Customise</strong></h6>
+                <p>The fox jumps over the lazy dog</p>
+            </div>
+
+            <div>
+                <h6 class="text-uppercase"><i class="fa-fa-square-o"></i><strong> Full of Features</strong></h6>
+                <p>The fox jumps over the lazy dog</p>
+            </div>
+
+            <div>
+                <h6 class="text-uppercase"><i class="fa-fa-square-o"></i><strong> 24/7 Support.</strong></h6>
+                <p></p>
+            </div>
+
+            <div>
+                <h6 class="text-uppercase"><i class="fa-fa-square-o"></i><strong> All in psd files.</strong></h6>
+                <p>The fox jumps over the lazy dog</p>
+            </div>
+        </div>
+
     </div>
 </section>
 
@@ -210,7 +216,7 @@
             <div class="row">
                 <div class="text-lg-left col-md-3">
                     <div>
-                        <i class="fa-fa-location-arrow"><strong> Location</strong></i>
+                        <h5><i class="fa-fa-location-arrow"><strong> Location</strong></i></h5>
                         <p>
                             10 Church street
                             Unit 19
@@ -223,7 +229,7 @@
                     <br><br>
 
                     <div>
-                        <i class="fa-fa-phone"><strong> Phone</strong></i>
+                        <h5><i class="fa-fa-phone"><strong> Phone</strong></i></h5>
                         <p>
                             071 768 8987
                         </p>
@@ -232,12 +238,20 @@
                     <br><br>
 
                     <div>
-                        <i class="fa-fa-evelope"><strong> Email Address</strong></i>
+                        <h5><i class="fa-fa-envelope"><strong> Email Address</strong></i></h5>
                         <p>
                             reception@devprox.com
                         </p>
                     </div>
                 </div>
+
+                <div class="col-md-3">
+                    <h5><i><strong>Our Location</strong></i></h5>
+                    <div>
+                        <iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1657.1050889153787!2d18.649569300532658!3d-33.8326899982911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5716d89d8c1f%3A0x51d3f5295aef00ae!2s10+Church+St%2C+Durbanville%2C+Cape+Town%2C+7550!5e0!3m2!1sen!2sza!4v1504165976237" width="850" height="410" frameborder="0" style="border:0"></iframe>
+                    </div>
+                </div>
+
             </div>
         </div>
 
@@ -251,7 +265,7 @@
 <script src="assets/bootstrap/bootstrap-js/bootstrap.min.js"></script>
 
 <!-- Jquery plugin -->
-<script src="assets/js/jquery.js"></script>
+<script src="assets/js/jquery-3.2.1.js"></script>
 
 <!-- Jquery Validation -->
 <script src="assets/dist/jquery.validate.js"></script>
