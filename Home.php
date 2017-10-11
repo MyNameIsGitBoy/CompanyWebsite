@@ -9,6 +9,7 @@
 
     <!-- Bootstrap Stylesheet -->
     <link rel="stylesheet" href="assets/bootstrap/bootstrap-css/bootstrap.css" type="text/css" >
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap-css/bootstrap.min.css" type="text/css">
 
 
 
@@ -19,25 +20,22 @@
 <!--HOME section -->
 <section id="Home">
 
-<header class="container" role="main">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-              <img class="" src="assets/images/devproxlogo.png">
+    <img src="assets/images/devproxlogo.png" class="w-25 col-sm-6">
 
-               <ul>
-                <li><a data-toggle="collapse" href="#Home"><i class="fa-fa-home"></i> HOME</a></li>
-                <li><a href="#About"  data-toggle="collapse"><i class="fa-fa-team"></i> WHAT WE DO</a></li>
-                <li><a href="#Contact"><i class="fa-fa-phone"></i> CONTACT-US</a></li>
+    <nav class="navbar navbar-text">
+               <ul class="nav navbar-toggler ">
+
+                <li><a href="#Home"><i class="fa-fa-home"></i>HOME</a></li>
+                <li><a href="#About"><i class="fa-fa-team"></i>WHAT WE DO</a></li>
+                <li><a href="#Contact"><i class="fa-fa-phone"></i>CONTACT-US</a></li>
                </ul>
-            </div>
-    </div>
     </nav>
-</header>
+
+
     <div class="jumbotron bg-faded">
         <div class="text-center">
 
-            <h6>We navigate the dangerous waters so you don't have to</h6>
+            <h6 class="figure-caption">We navigate the dangerous waters so you don't have to</h6>
 
         <video id="" preload="" autoplay="true" loop="loop" muted="muted" class="">
             <source src="assets/video/shark.mp4" type="video/mp4">
@@ -56,7 +54,7 @@
         <br/>
     </div>
 
-    <div class="float-md-right col-md-5 ">
+    <div class="float-md-right col-md-4">
         <div id="Carousel" class="carousel" >
             <ol class="carousel-indicators">
                 <li data-target="#Carousel" data-toggle="0" class="active"></li>
@@ -137,7 +135,7 @@
         </div>
      </div>
 
-        <div class="col-sm-6">
+        <div class="col-sm-6 text-sm-right">
             <div>
                 <h6 class="text-uppercase"><i class="fa-fa-square-o"></i><strong> Easy to Customise</strong></h6>
                 <p>The fox jumps over the lazy dog</p>
@@ -174,31 +172,32 @@
                     <div class="text-xl-center">
                         <div class="col-sm-12">
                             <div class="form-group">
-                                <input id="username" name="username" type="text" placeholder="Name" required="" >
+                                <label>Name</label>
+                                <input id="username" name="username" type="text" placeholder="Name" class="form-control" required="">
                             </div>
                         </div>
 
                         <div class="col-sm-12">
                             <div class="form-group">
-                                <input id="contact" name="contact" type="number" placeholder="Phone" required="" >
+                                <input id="contact" name="contact" type="number" placeholder="Phone" class="form-control" required="" >
                             </div>
                         </div>
 
                         <div class="col-sm-12">
                             <div class="form-group">
-                                <input id="email" name="email" type="email" placeholder="Email" required="" >
+                                <input id="email" name="email" type="email" placeholder="Email" class="form-control" required="" >
                             </div>
                         </div>
 
                         <div class="col-xl-12">
                             <div class="form-group">
-                                <input id="message" name="message" type="text" placeholder="Message" required="" >
+                                <input id="message" name="message" type="text" placeholder="Message" class="form-control" required="" >
                             </div>
                         </div>
 
                         <div class="col-sm-12">
                             <div class="form-group">
-                                <input id="submit" type="submit" placeholder="SEND A MESSAGE">
+                                <input id="submit" type="submit" placeholder="SEND A MESSAGE" class="form-control">
                             </div>
                         </div>
                     </div>
@@ -212,7 +211,7 @@
 
 <section>
     <footer>
-        <div class="container">
+        <div class="jumbotron">
             <div class="row">
                 <div class="text-lg-left col-md-3">
                     <div>
@@ -223,7 +222,8 @@
                             San Domenico
                             Durbanville
                             Cape Town
-                            7550</p>
+                            7550
+                        </p>
                     </div>
 
                     <br><br>
@@ -261,11 +261,16 @@
     </footer>
 </section>
 
-<!-- Bootstrap Javascript -->
-<script src="assets/bootstrap/bootstrap-js/bootstrap.min.js"></script>
-
 <!-- Jquery plugin -->
-<script src="assets/js/jquery-3.2.1.js"></script>
+<script src="assets/js/jquery.js"></script>
+
+<!--Tether plugin-->
+<script src="assets/tether/js/tether.js"></script>
+<script src="assets/tether/js/tether.min.js"></script>
+
+<!-- Bootstrap Javascript -->
+<script src="assets/bootstrap/bootstrap-js/bootstrap.js"></script>
+<script src="assets/bootstrap/bootstrap-js/bootstrap.min.js"></script>
 
 <!-- Jquery Validation -->
 <script src="assets/dist/jquery.validate.js"></script>
